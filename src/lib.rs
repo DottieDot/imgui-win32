@@ -69,9 +69,9 @@ impl Win32Impl {
         io.key_map[Key::Delete as usize] = VK_DELETE.0 as u32;
         io.key_map[Key::Backspace as usize] = VK_BACK.0 as u32;
         io.key_map[Key::Space as usize] = VK_SPACE.0 as u32;
-        io.key_map[Key::KeyPadEnter as usize] = VK_RETURN.0 as u32;
+        io.key_map[Key::KeypadEnter as usize] = VK_RETURN.0 as u32;
         io.key_map[Key::Escape as usize] = VK_ESCAPE.0 as u32;
-        io.key_map[Key::KeyPadEnter as usize] = VK_RETURN.0 as u32;
+        io.key_map[Key::KeypadEnter as usize] = VK_RETURN.0 as u32;
         io.key_map[Key::A as usize] = 'A' as u32;
         io.key_map[Key::C as usize] = 'C' as u32;
         io.key_map[Key::V as usize] = 'V' as u32;
